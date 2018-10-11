@@ -1,0 +1,7 @@
+
+development:
+  driver: dbms1
+  open: user:password@tcp(127.0.0.1:13331)/database_development?parseTime=true
+test:
+  driver: dbms2
+  open: testuser:password@tcp(127.0.0.1:13332)/database_test?parseTime=true
